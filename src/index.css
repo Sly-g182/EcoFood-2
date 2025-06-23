@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Noto Sans", "FontAwesome", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    color: #333;
+}
+
+h1{font-size: 6.0em;}
+h2{font-size: 3.7em;}
+h3{font-size: 2em;}
+li{list-style: none;}
+li{font-size: 1.25em;}
+
