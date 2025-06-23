@@ -1,16 +1,49 @@
-// /src/pages/cliente/HomeCliente.jsx
 import { Link } from 'react-router-dom';
 
 export default function HomeCliente() {
-return (
-    <div className="container mt-4">
-    <h2>Bienvenido a EcoFood</h2>
-    <p>Explora productos disponibles o revisa tus solicitudes.</p>
-    <div className="d-flex gap-3 mt-3">
-        <Link to="/cliente/productos" className="btn btn-primary">Ver Productos</Link>
-        <Link to="/cliente/pedidos" className="btn btn-success">Mis Solicitudes</Link>
-        <Link to="/cliente/perfil" className="btn btn-secondary">Editar Perfil</Link>
-    </div>
-    </div>
-);
+    return (
+        <div className="container mt-5">
+        <div className="text-center mb-5">
+            <h1 className="display-4 fw-bold text-success">🌿 Bienvenido a EcoFood</h1>
+        </div>
+
+        <div className="row g-4 justify-content-center">
+            {/* Card 1 */}
+            <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 hover-shadow transition">
+                <div className="card-body text-center">
+                <i className="bi bi-box-seam display-4 text-primary mb-3"></i>
+                <h5 className="card-title">Ver Productos</h5>
+                <p className="card-text">Explora todos los productos disponibles para ti.</p>
+                <Link to="/cliente/productos" className="btn btn-primary mt-2 w-100">Explorar</Link>
+                </div>
+            </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 hover-shadow transition">
+                <div className="card-body text-center">
+                <i className="bi bi-card-checklist display-4 text-success mb-3"></i>
+                <h5 className="card-title">Mis Solicitudes</h5>
+                <p className="card-text">Consulta el estado de tus pedidos y solicitudes.</p>
+                <Link to="/cliente/pedidos" className="btn btn-success mt-2 w-100">Ver Solicitudes</Link>
+                </div>
+            </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="col-md-4">
+            <div className="card h-100 shadow-sm border-0 hover-shadow transition">
+                <div className="card-body text-center">
+                <i className="bi bi-person-circle display-4 text-secondary mb-3"></i>
+                <h5 className="card-title">Editar Perfil</h5>
+                <p className="card-text">Actualiza tu información personal fácilmente.</p>
+                <Link to="/cliente/perfil" className="btn btn-secondary mt-2 w-100">Editar</Link>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    );
 }
