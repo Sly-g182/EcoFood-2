@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { AuthProvider } from './context/AuthProvider'; // O la ruta correcta
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/styles.css';
+import './index.css'; 
+import './global.css'; // Asegúrate de que este archivo exista
+
 
 
 
