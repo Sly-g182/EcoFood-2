@@ -42,7 +42,7 @@ const guardarCambios = async () => {
     setEditando(false);
     } catch (error) {
     console.error("Error al actualizar perfil:", error);
-    Swal.fire("❌ Error al actualizar perfil", error.message, "error");
+    Swal.fire("❌❌❌❌ Error al actualizar perfil❌❌❌❌❌", error.message, "error");
     }
 };
 
