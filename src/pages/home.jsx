@@ -5,7 +5,6 @@ import QueHacemos from '../components/Que_hacemos';
 import ComoPuedesAyudar from '../components/ComoPuedesAyudar';
 import ContactoYFAQ from '../components/ContactoYFAQ';
 import Footer from '../components/Footer';
-import '../global.css';
 
 
 
@@ -32,8 +31,6 @@ function Home() {
             <Hero/>
             <Somos/>
             <QueHacemos/>
-            <ComoPuedesAyudar />
-            <ContactoYFAQ />
             <Footer />
         </>
     );

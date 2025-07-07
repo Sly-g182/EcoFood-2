@@ -143,19 +143,16 @@ header button {
 }
 
 /* Cartas en #que-hacemos */
-#que-hacemos {
-    background-color: rgba(30, 30, 30);
-    color: white;
-    text-align: center;
-}
+
 
 #que-hacemos .container {
-    padding: 150px 12px;
+    padding: 110px 12px;
 }
 
 #que-hacemos h2 {
     margin-top: 0;
     font-size: 5em;
+    color: green;
 }
 
 #que-hacemos h3 {
@@ -283,7 +280,7 @@ header button {
 
 /* Footer */
 .footer {
-    background-color: #182634;
+    background-color: #000000;
     color: white;
     padding: 30px 20px 10px;
     font-family: 'Segoe UI', sans-serif;
@@ -296,6 +293,7 @@ header button {
     gap: 20px;
     max-width: 1000px;
     margin: auto;
+    background-color: black;
 }
 
 .footer-info, .footer-social {

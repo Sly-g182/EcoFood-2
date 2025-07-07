@@ -1,0 +1,22 @@
+/* src/pages/AuthForm.css */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.password-strength {
+  font-size: 0.8rem;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}

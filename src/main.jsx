@@ -5,7 +5,8 @@ import App from './App';
 import { AuthProvider } from './context/AuthProvider'; // O la ruta correcta
 import './components/styles.css';
 import './index.css'; 
-import './global.css'; // Asegúrate de que este archivo exista
+
+
 
 
 

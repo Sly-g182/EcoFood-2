@@ -1,5 +1,6 @@
 import React from 'react';
 import EmpresaForm from '../components/admin/EmpresaForm';
+// Asegúrate de que este archivo exista
 
 export default function RegistroEmpresa() {
 return (
@@ -9,3 +10,4 @@ return (
     </div>
 );
 }
+    
